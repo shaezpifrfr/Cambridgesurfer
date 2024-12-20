@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CambridgeSurfer</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #8b0000, #660000);
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #660000;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff0000;
+    }
+
+    /* Main Content */
+    main {
+      padding: 20px;
+    }
+
+    .section {
+      background: rgba(26, 26, 26, 0.9);
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ff0000;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #ff0000;
+      max-width: 900px;
+    }
+
+    .section h2 {
+      color: #ff0000;
+      text-align: center;
+    }
+
+    /* Table for Resources */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table th, table td {
+      border: 1px solid #ff0000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    table th {
+      background-color: #660000;
+      color: #ffffff;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #333333;
+    }
+
+    table tr:hover {
+      background-color: #ff0000;
+      color: #ffffff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #660000;
+      color: #ffffff;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CambridgeSurfer</h1>
+    <p>Your ultimate resource hub for Cambridge IGCSE and A-Level materials</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#igcse">IGCSE</a></li>
+      <li><a href="#alevel">A-Level</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- IGCSE Section -->
+    <section id="igcse" class="section">
+      <h2>IGCSE Resources</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Past Papers</th>
+            <th>Marking Schemes</th>
+            <th>Other Resources</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mathematics</td>
+            <td><a href="https://example.com/math-papers" target="_blank">Download</a></td>
+            <td><a href="https://example.com/math-marks" target="_blank">Download</a></td>
+            <td><a href="https://example.com/math-resources" target="_blank">View</a></td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td><a href="https://example.com/physics-papers" target="_blank">Download</a></td>
+            <td><a href="https://example.com/physics-marks" target="_blank">Download</a></td>
+            <td><a href="https://example.com/physics-resources" target="_blank">View</a></td>
+          </tr>
+          <!-- Add more subjects as needed -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- A-Level Section -->
+    <section id="alevel" class="section">
+      <h2>A-Level Resources</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Past Papers</th>
+            <th>Marking Schemes</th>
+            <th>Other Resources</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Computer Science</td>
+            <td><a href="https://example.com/cs-papers" target="_blank">Download</a></td>
+            <td><a href="https://example.com/cs-marks" target="_blank">Download</a></td>
+            <td><a href="https://example.com/cs-resources" target="_blank">View</a></td>
+          </tr>
+          <tr>
+            <td>Biology</td>
+            <td><a href="https://example.com/bio-papers" target="_blank">Download</a></td>
+            <td><a href="https://example.com/bio-marks" target="_blank">Download</a></td>
+            <td><a href="https://example.com/bio-resources" target="_blank">View</a></td>
+          </tr>
+          <!-- Add more subjects as needed -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p>Have questions or need help? Reach out to us:</p>
+      <p>Email: support@cambridgesurfer.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 CambridgeSurfer. All rights reserved.</p>
+  </footer>
+</body>
+</html>
